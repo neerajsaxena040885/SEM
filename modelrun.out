@@ -1,0 +1,225 @@
+**** Integrated Choice & latent Variable Model (ICLV) ****
+-------> For Sample ID: 1 
+Start estimation
+The negative of the log-likelihood is minimized,
+which is the same as maximizing the log-likelihood.
+                                            First-order      Norm of
+ Iter F-count            f(x)  Feasibility   optimality         step
+    0      16    4.323782e+03    0.000e+00    7.914e+02
+Objective function returned Inf; trying a new point...
+    1      40    4.176973e+03    0.000e+00    2.611e+02    2.420e-01
+Objective function returned Inf; trying a new point...
+    2      58    4.129101e+03    0.000e+00    1.999e+02    2.420e-01
+Objective function returned Inf; trying a new point...
+    3      78    4.073174e+03    0.000e+00    8.636e+02    4.841e-01
+Objective function returned Inf; trying a new point...
+    4      96    3.982217e+03    0.000e+00    3.410e+02    4.841e-01
+Objective function returned Inf; trying a new point...
+    5     118    3.936374e+03    0.000e+00    4.504e+02    2.420e-01
+Objective function returned Inf; trying a new point...
+    6     135    3.901787e+03    0.000e+00    7.289e+02    4.841e-01
+Objective function returned Inf; trying a new point...
+    7     156    3.867172e+03    0.000e+00    5.060e+02    4.841e-01
+Objective function returned Inf; trying a new point...
+    8     174    3.854243e+03    0.000e+00    5.064e+02    4.841e-01
+Objective function returned Inf; trying a new point...
+    9     196    3.840921e+03    0.000e+00    3.138e+02    2.420e-01
+Objective function returned Inf; trying a new point...
+   10     213    3.837944e+03    0.000e+00    1.891e+02    4.841e-01
+Objective function returned Inf; trying a new point...
+   11     234    3.824563e+03    0.000e+00    6.887e+01    4.841e-01
+Objective function returned Inf; trying a new point...
+   12     256    3.820177e+03    0.000e+00    5.494e+01    2.420e-01
+Objective function returned Inf; trying a new point...
+   13     275    3.819686e+03    0.000e+00    1.044e+02    1.210e-01
+Objective function returned Inf; trying a new point...
+   14     296    3.817659e+03    0.000e+00    1.708e+01    1.210e-01
+Objective function returned Inf; trying a new point...
+   15     315    3.817651e+03    0.000e+00    1.746e+01    6.051e-02
+   16     336    3.817590e+03    0.000e+00    3.999e+01    6.051e-02
+Objective function returned Inf; trying a new point...
+   17     354    3.817525e+03    0.000e+00    3.036e+01    3.025e-02
+Objective function returned Inf; trying a new point...
+   18     375    3.817308e+03    0.000e+00    1.017e+01    3.025e-02
+   19     397    3.817288e+03    0.000e+00    4.278e+00    1.513e-02
+   20     416    3.817285e+03    0.000e+00    6.554e+00    7.564e-03
+   21     437    3.817280e+03    0.000e+00    8.404e+00    7.564e-03
+   22     455    3.817278e+03    0.000e+00    8.236e+00    7.564e-03
+   23     476    3.817270e+03    0.000e+00    5.883e+00    7.564e-03
+   24     494    3.817246e+03    0.000e+00    4.111e+00    2.647e-02
+   25     515    3.817203e+03    0.000e+00    6.133e+00    2.647e-02
+   26     533    3.817122e+03    0.000e+00    4.192e+00    9.265e-02
+   27     554    3.816934e+03    0.000e+00    1.189e+01    9.265e-02
+   28     572    3.816855e+03    0.000e+00    2.114e+01    3.243e-01
+   29     594    3.816502e+03    0.000e+00    1.343e+01    1.621e-01
+   30     613    3.816408e+03    0.000e+00    3.854e+00    8.107e-02
+
+                                            First-order      Norm of
+ Iter F-count            f(x)  Feasibility   optimality         step
+   31     629    3.815217e+03    0.000e+00    1.546e+01    6.531e-01
+   32     645    3.814202e+03    0.000e+00    1.214e+02    1.893e+00
+   33     663    3.813347e+03    0.000e+00    1.642e+01    5.845e-01
+   34     679    3.813185e+03    0.000e+00    1.432e+01    1.777e-01
+   35     695    3.813171e+03    0.000e+00    8.508e+00    1.706e-01
+   36     711    3.813160e+03    0.000e+00    5.871e-01    1.269e-01
+   37     727    3.813160e+03    0.000e+00    3.889e-01    9.049e-03
+   38     743    3.813160e+03    0.000e+00    4.014e-01    2.098e-03
+   39     759    3.813160e+03    0.000e+00    3.483e-01    4.607e-03
+   40     775    3.813160e+03    0.000e+00    2.022e-01    1.069e-03
+   41     791    3.813160e+03    0.000e+00    4.329e-02    3.853e-03
+   42     807    3.813160e+03    0.000e+00    4.093e-03    1.093e-03
+   43     823    3.813160e+03    0.000e+00    7.593e-04    2.038e-04
+   44     839    3.813160e+03    0.000e+00    3.624e-04    7.532e-05
+   45     860    3.813160e+03    0.000e+00    4.882e-04    7.532e-05
+   46     877    3.813160e+03    0.000e+00    5.493e-04    7.532e-05
+   47     893    3.813160e+03    0.000e+00    3.357e-04    5.154e-05
+   48     916    3.813160e+03    0.000e+00    2.136e-04    1.289e-05
+   49     933    3.813160e+03    0.000e+00    1.831e-04    4.195e-06
+   50     951    3.813160e+03    0.000e+00    2.136e-04    2.169e-06
+   51     967    3.813160e+03    0.000e+00    1.831e-04    1.990e-06
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_poss_with_constr','CSHelpWindow');">Local minimum possible. Constraints satisfied</a>.
+
+fmincon stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_simple_fminconip','CSHelpWindow');">size of the current step</a> is less than
+the selected value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'step_size_tol','CSHelpWindow');">step size tolerance</a> and constraints are 
+satisfied to within the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'constraint_tolerance','CSHelpWindow');">constraint tolerance</a>.
+
+<<a href = "matlab: createExitMsg('barrier',2.000000e+00,true,true,'fmincon',5.974378e-07,'selected',1.000000e-06,0.000000e+00,'default',1.000000e-06,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+ 
+Estimation took 4.3886 minutes.
+ 
+Convergence achieved by criterion based on change in parameters.
+Parameters changed less than PARAMTOL= 1e-06
+You might want to check whether this is actually convergence.
+The gradient vector is
+grad =
+   1.0e-03 *
+   -0.1221
+   -0.1831
+   -0.0610
+    0.0610
+   -0.1831
+    0.0305
+         0
+    0.0435
+   -0.0610
+   -0.1831
+   -0.1221
+   -0.0305
+   -0.1526
+   -0.0610
+   -0.0305
+Value of the log-likelihood function at convergence: -3813.16
+ 
+                      AIC                      BIC
+              ------------------   -----------------------
+                   7656.3200                7722.1232
+ 
+ 
+Taking inverse of hessian for standard errors.
+ 
+The value of grad*inv(hessian)*grad is: 9.7267e-10
+ 
+-------------------------------------------------------------------
+     RESULTS FROM THE INTEGRATED CHOICE & LATENT VARIABLE MODEL 
+-------------------------------------------------------------------
+ 
+ 
+STRUCTURAL MODEL
+ 
+                    Coeffs      
+              ------------------ 
+                Est         SE       Z-Stat 
+A_TT           0.0405     0.0780     0.5188
+A_TTS          0.9041     0.0830    10.8949
+A_SnGo         0.1321     0.0433     3.0531
+A_Male        -0.4440     0.0808    -5.4950
+A_ALT40ELT8     0.7375     0.1355     5.4428
+A_AGT40EGT8     0.6721     0.1897     3.5436
+ 
+ 
+ 
+ 
+MEASUREMENT MODEL
+ 
+                    Coeffs      
+              ------------------ 
+                Est         SE       Z-Stat 
+Bc_1          -2.3625     0.3344    -7.0647
+Bc_2          -2.1046     0.2755    -7.6405
+LV_Load        0.9540     0.0490    19.4504
+Mu_12          0.4705     0.0366    12.8650
+Mu_13          0.2022     0.0477     4.2423
+Mu_14          0.3829     0.0825     4.6391
+Mu_22          0.2473     0.0433     5.7081
+Mu_23          0.1886     0.0454     4.1589
+Mu_24          0.4756     0.0563     8.4425
+ 
+ 
+** The first threshold point is normalised to ZERO because a constant term is getting estimated. 
+ 
+ 
+ 
+ 
+ESTIMATED VARIANCE COVARIANCE MATRIX.
+ 
+Measurement Model
+ 
+vcmatrix =
+    1.9101    0.9101
+    0.9101    1.9101
+ 
+ 
+ESTIMATED PARAMETERS AND FULL COVARIANCE MATRIX.
+The estimated values of the parameters are:
+paramhat =
+  Columns 1 through 11
+    0.0405    0.9041    0.1321   -0.4440    0.7375    0.6721   -2.3625   -2.1046    0.9540    0.4705    0.2022
+  Columns 12 through 15
+    0.3829    0.2473    0.1886    0.4756
+The covariance matrix for these parameters is:
+ihess =
+  Columns 1 through 11
+    0.0061   -0.0002   -0.0009   -0.0001    0.0032    0.0037   -0.0176   -0.0128   -0.0015   -0.0006   -0.0006
+   -0.0002    0.0069   -0.0017    0.0011    0.0055    0.0097   -0.0169   -0.0109   -0.0024   -0.0006   -0.0019
+   -0.0009   -0.0017    0.0019   -0.0004   -0.0005   -0.0011    0.0062    0.0008    0.0002    0.0000    0.0002
+   -0.0001    0.0011   -0.0004    0.0065    0.0003    0.0033   -0.0088   -0.0080    0.0002    0.0003   -0.0001
+    0.0032    0.0055   -0.0005    0.0003    0.0184    0.0207   -0.0269   -0.0234   -0.0047   -0.0009   -0.0026
+    0.0037    0.0097   -0.0011    0.0033    0.0207    0.0360   -0.0431   -0.0372   -0.0058   -0.0006   -0.0032
+   -0.0176   -0.0169    0.0062   -0.0088   -0.0269   -0.0431    0.1118    0.0834    0.0084    0.0029    0.0061
+   -0.0128   -0.0109    0.0008   -0.0080   -0.0234   -0.0372    0.0834    0.0759    0.0066    0.0015    0.0049
+   -0.0015   -0.0024    0.0002    0.0002   -0.0047   -0.0058    0.0084    0.0066    0.0024    0.0007    0.0011
+   -0.0006   -0.0006    0.0000    0.0003   -0.0009   -0.0006    0.0029    0.0015    0.0007    0.0013   -0.0002
+   -0.0006   -0.0019    0.0002   -0.0001   -0.0026   -0.0032    0.0061    0.0049    0.0011   -0.0002    0.0023
+   -0.0020   -0.0018    0.0004    0.0001   -0.0058   -0.0062    0.0126    0.0103    0.0012   -0.0000    0.0001
+   -0.0015   -0.0005    0.0002    0.0001   -0.0019   -0.0021    0.0058    0.0056    0.0008    0.0003    0.0004
+   -0.0004   -0.0013    0.0002   -0.0000   -0.0019   -0.0025    0.0036    0.0031    0.0010    0.0003    0.0004
+   -0.0002    0.0004   -0.0001    0.0002   -0.0000    0.0012   -0.0014   -0.0010    0.0002    0.0002    0.0000
+  Columns 12 through 15
+   -0.0020   -0.0015   -0.0004   -0.0002
+   -0.0018   -0.0005   -0.0013    0.0004
+    0.0004    0.0002    0.0002   -0.0001
+    0.0001    0.0001   -0.0000    0.0002
+   -0.0058   -0.0019   -0.0019   -0.0000
+   -0.0062   -0.0021   -0.0025    0.0012
+    0.0126    0.0058    0.0036   -0.0014
+    0.0103    0.0056    0.0031   -0.0010
+    0.0012    0.0008    0.0010    0.0002
+   -0.0000    0.0003    0.0003    0.0002
+    0.0001    0.0004    0.0004    0.0000
+    0.0068    0.0004    0.0004   -0.0001
+    0.0004    0.0019   -0.0000   -0.0000
+    0.0004   -0.0000    0.0021   -0.0003
+   -0.0001   -0.0000   -0.0003    0.0032
+ 
+You can access the estimated parameters as variable paramhat,
+the gradient of the negative of the log-likelihood function as variable grad,
+the hessian of the negative of the log-likelihood function as variable hessian,
+and the inverse of the hessian as variable ihess.
+The hessian is calculated by the BFGS updating procedure.
+Elapsed time is 263.405866 seconds.
+ 
+**** Simulation Ended ****
+Number of samples estimated: 1 
+Execution time: 0.073169 hours.
